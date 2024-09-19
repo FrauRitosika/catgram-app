@@ -31,7 +31,7 @@ async function getImgurGallery(params: RequestParams) {
         .then(successResponse => {
             return (successResponse.status === 200 ? successResponse.json() : null);
         },
-            failResponse => {
+            () => {
                 return null;
             });
 

@@ -1,4 +1,4 @@
-import React, { RefObject, useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import ButtonReaction from "./ButtonReaction";
 import './Card.css';
 import { PostContent } from '../app-data/types';

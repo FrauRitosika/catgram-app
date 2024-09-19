@@ -6,7 +6,7 @@ interface HeaderInfo {
     className?: string;
 }
 
-const Header: React.FC<HeaderInfo> = ({className='', ...args}) => {
+const Header: React.FC<HeaderInfo> = ({className=''}) => {
     return (
         <header className={`${className} header`}>
             <div className="header__logo-container">

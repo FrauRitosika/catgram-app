@@ -22,7 +22,7 @@ const getGallery = async () => {
             })
             if (gallery.length > 0) localStorage.setItem('gallery', JSON.stringify({ postIds: gallery }));
 
-        }, err => { });
+        });
     }
 
     return posts;

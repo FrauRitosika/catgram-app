@@ -50,4 +50,4 @@ interface ApiGetGalleryResponse {
     status: number;
 }
 
-export {ApiGetGalleryResponse, DataResponse, ItemsResponse, ImageResponse, RequestParams};
+export type {ApiGetGalleryResponse, DataResponse, ItemsResponse, ImageResponse, RequestParams};

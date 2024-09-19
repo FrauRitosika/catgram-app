@@ -15,4 +15,4 @@ interface PostContent {
 }
 
 
-export {ImageInfo, PostContent}
+export type {ImageInfo, PostContent}

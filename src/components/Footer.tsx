@@ -6,7 +6,7 @@ interface FooterInfo {
     className?: string;
 }
 
-const Footer: React.FC<FooterInfo> = ({className='', ...args}) => {
+const Footer: React.FC<FooterInfo> = ({className=''}) => {
     return (
         <footer className={`${className} footer`}>
         <div className="footer__logo-container">
