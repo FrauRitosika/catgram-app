@@ -1,0 +1,35 @@
+.button {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.reaction-button-like {
+    background-image: url('../assets/like.svg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    opacity: 0.5;
+  }
+  
+  .reaction-button-delete {
+    background-image: url('../assets/hidden.svg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    opacity: 0.5;
+  }
+  
+  .reaction-button-like--active {
+    background-image: url('../assets/like.svg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+
+  .reaction-button-delete--active {
+    background-image: url('../assets/hidden.svg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
