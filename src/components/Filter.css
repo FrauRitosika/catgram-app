@@ -1,0 +1,30 @@
+.filter {
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.filter:active {
+    opacity: 0.5;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.filter__icon {
+    background-image: url('../assets/filter.svg');
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
